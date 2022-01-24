@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/css/all.css">
+    <title>Prem Sagar</title>
+</head>
+<body class="bg-[#070930]">
+    <div class="text-white">
+        <!--  =========== navigation bar ============= -->
+        <header class="bg-gradient-to-t to-black from-[#070930]">
+            <nav>
+                <ul class="flex justify-evenly p-5 font-semibold">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">My Skills</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </nav>
+            <section class="flex items-end hero h-screen bg-[url('image/me6.jpg')] lg:bg-contain bg-no-repeat bg-cover bg-center bg-fixed">
+                <div class="text-center p-20 mb-32 bg-[rgba(0,0,0,0.5)]">
+                    <h1 class="mb-5 font-bold lg:text-6xl text-4xl">Hi, I'm Prem Sagar.</h1>
+                    <p class="text-sm md:text-base lg:text-lg">I'm a full-stack developer, a YouTuber and a teacher and a loving father of my daughter. I like to work as freelancer. Technologies that i use when I create website are React, Node.js, MongoDB, HTML, JavaScript and more.</p>
+                </div>
+            </section>
+        </header>
+        <main>
+
+
+            <!--  =========== skills section ============= -->
+            <section id="skills" class="p-20 bg-gradient-to-t to-[#070930] from-black">
+                <h2 class="section-heading">My Skills</h2>
+
+                <div class="grid md:grid-cols-2 lg:text-2xl sm:text-base">
+                    <!-- col-1 -->
+                    <div class="p-10">
+                        <div class="skill-card border-l-blue-600"><!--skill card-->
+                            <h6 class="text-blue-600">Backend</h6>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>Nginx</li>
+                            </ul>
+                        </div> 
+                        <div class="skill-card border-l-green-600"><!--skill card-->
+                            <h6 class="text-green-600">Deployment</h6>
+                            <ul>
+                                <li>VPS</li>
+                                <li>Heroku</li>
+                                <li>Firebase</li>
+                                <li>Shared Hosting</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card border-l-orange-400"><!--skill card-->
+                            <h6 class="text-orange-400">More</h6>
+                            <ul>
+                                <li>Ubuntu</li>
+                                <li>Blender 3D</li>
+                                <li>Three.js (Library for 3D)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- col-2 -->
+                    <div class="p-10">
+                        <div class="skill-card border-l-red-600"><!--skill card-->
+                            <h6 class="text-red-600 font-semibold">Frontend</h6>
+                            <ul>
+                             <li>React</li>
+                             <li>Next.js</li>
+                             <li>Bootstrap</li>
+                             <li>Tailwind CSS</li>
+                            </ul>
+                        </div> 
+                        <div class="skill-card border-l-yellow-600"><!--skill card-->
+                            <h6 class="text-yellow-600">Database</h6>
+                            <ul>
+                                <li>MySql</li>
+                                <li>Mongo DB</li>
+                                <li>Graph QL</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card border-l-pink-600"><!--skill card-->
+                            <h6 class="text-pink-600">Version Control</h6>
+                            <ul>
+                                <li>Git</li>
+                                <li>Git Hub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--  =========== youtube section ============= -->
+            <section id="youTube" class="p-20  bg-gradient-to-t from-[#070930] to-black">
+                <h2 class="section-heading">Fun fact! I'm also a YouTuber.</h2>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <div>
+                        <a href="">
+                            <img src="image/youTube-thumbnails/1 (1).png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="image/youTube-thumbnails/1 (2).png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="image/youTube-thumbnails/1 (3).png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--  =========== sevices section ============= -->
+            <section id="services" class="relative p-20 bg-[url('image/background/bg-computer.jpg')] bg-cover bg-no-repeat bg-fixed z-10">
+                <div class="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.47)] -z-10"></div>
+                <h2 class="section-heading">Services</h2>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <div class="service-card bg-green-400">
+                        <i class="fas fa-3x fa-laptop-code"></i><span class="text-6xl">+</span><i class="fas fa-3x fa-server"></i>
+                        <h5>Full-Stack Development</h5>
+                        <p>I will build and deploy your website and get it up and running.</p>
+                    </div>
+                    <div  class="service-card bg-violet-500">
+                        <i class="fas fa-3x fa-laptop-code"></i>
+                        <h5>Frontend Development</h5>
+                        <p>I will create frontend part for your website with react or static HTML pages.</p>
+                    </div>
+                    <div  class="service-card bg-pink-500">
+                        <i class="fas fa-3x fa-server"></i>
+                        <h5>Backend Development</h5>
+                        <p>I will build backend server with database for your website.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--  =========== projects section ============= -->
+            <section id="projects"></section>
+
+            <!--  =========== contact section ============= -->
+            <section id="contact"></section>
+        </main>
+        <footer>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae exercitationem autem commodi praesentium vero vitae ipsam nesciunt mollitia at iusto?</p>
+        </footer>
+    </div>
+</body>
+</html>

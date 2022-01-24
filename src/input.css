@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skill-card {
+  @apply rounded-2xl bg-[#292C6D] p-10 border-l-8 mb-10;
+}
+
+.section-heading {
+  @apply text-center font-bold text-4xl mb-10;
+}
+
+.service-card {
+  @apply text-center p-20 rounded-2xl text-black hover:text-white hover:bg-blue-400 transition-colors ease-linear;
+}
+
+.service-card h5 {
+  @apply font-bold;
+}
