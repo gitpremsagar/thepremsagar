@@ -7,7 +7,7 @@
 }
 
 .section-heading {
-  @apply text-center font-bold text-4xl mb-10;
+  @apply text-center font-bold text-6xl mb-20;
 }
 
 .service-card {
@@ -15,5 +15,23 @@
 }
 
 .service-card h5 {
-  @apply font-bold;
+  @apply font-bold my-5;
+}
+
+#contact h6 {
+  @apply font-bold mt-5;
+}
+
+#contact form input,
+#contact form textarea {
+  @apply w-full max-w-[600px] p-2 rounded-xl mb-2 bg-transparent border-2;
+}
+
+#contact form input::placeholder,
+#contact form textarea::placeholder {
+  @apply text-white;
+}
+
+#contact form textarea {
+  @apply h-[250px];
 }

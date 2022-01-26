@@ -504,6 +504,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -520,6 +532,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -528,12 +544,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: flex-end;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-evenly {
   justify-content: space-evenly;
 }
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .border-l-blue-600 {
@@ -594,6 +634,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[rgba\(0\2c 0\2c 0\2c 0\.68\)\] {
+  background-color: rgba(0,0,0,0.68);
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -604,6 +658,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\'image\/background\/bg-computer\.jpg\'\)\] {
   background-image: url('image/background/bg-computer.jpg');
+}
+
+.bg-\[url\(\'image\/project\/pexels-prateek-katyal-2694434\.jpg\'\)\] {
+  background-image: url('image/project/pexels-prateek-katyal-2694434.jpg');
+}
+
+.bg-\[url\(\'image\/project\/pexels-ivan-samkov-7621352\.jpg\'\)\] {
+  background-image: url('image/project/pexels-ivan-samkov-7621352.jpg');
+}
+
+.bg-\[url\(\'image\/project\/pexels-andrea-piacquadio-3761513\.jpg\'\)\] {
+  background-image: url('image/project/pexels-andrea-piacquadio-3761513.jpg');
+}
+
+.bg-\[url\(\'image\/background\/bg6\.jpg\'\)\] {
+  background-image: url('image/background/bg6.jpg');
 }
 
 .from-\[\#070930\] {
@@ -652,6 +722,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -669,6 +753,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-semibold {
@@ -714,6 +803,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(219 39 119 / var(--tw-text-opacity));
 }
 
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .skill-card {
   margin-bottom: 2.5rem;
   border-radius: 1rem;
@@ -724,10 +823,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .section-heading {
-  margin-bottom: 2.5rem;
+  margin-bottom: 5rem;
   text-align: center;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 700;
 }
 
@@ -753,7 +852,48 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .service-card h5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   font-weight: 700;
+}
+
+#contact h6 {
+  margin-top: 1.25rem;
+  font-weight: 700;
+}
+
+#contact form input, #contact form textarea {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 0.75rem;
+  border-width: 2px;
+  background-color: transparent;
+  padding: 0.5rem;
+}
+
+#contact form input::-moz-placeholder, #contact form textarea::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+#contact form input:-ms-input-placeholder, #contact form textarea:-ms-input-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+#contact form input::placeholder, #contact form textarea::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+#contact form textarea {
+  height: 250px;
+}
+
+.hover\:bg-blue-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
