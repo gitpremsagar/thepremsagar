@@ -480,12 +480,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
+.bottom-0 {
+  bottom: 0px;
 }
 
 .left-0 {
   left: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-10 {
@@ -496,8 +500,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: -10;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-40 {
+  margin-bottom: 10rem;
 }
 
 .mb-5 {
@@ -510,6 +514,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -536,10 +544,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
 }
@@ -554,6 +558,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-xl {
@@ -710,16 +718,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1.25rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
 
-.p-12 {
-  padding: 3rem;
+.p-20 {
+  padding: 5rem;
 }
 
 .px-8 {
@@ -730,6 +734,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
 }
 
 .pt-2 {
@@ -753,11 +761,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-2xl {
@@ -828,11 +831,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .section-heading {
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   text-align: center;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    margin-bottom: 5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -844,7 +855,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .service-card {
   border-radius: 1rem;
-  padding: 5rem;
+  padding: 2.5rem;
   text-align: center;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -861,6 +872,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .service-card {
+    padding: 5rem;
+  }
 }
 
 .service-card h5 {
@@ -932,12 +949,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding: 2.5rem;
   }
 
-  .md\:p-32 {
-    padding: 8rem;
+  .md\:p-20 {
+    padding: 5rem;
   }
 
   .md\:p-48 {
     padding: 12rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-xl {
@@ -949,6 +970,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -958,6 +984,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
   }
 
   .lg\:bg-contain {
