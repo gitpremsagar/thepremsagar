@@ -10,20 +10,20 @@
     <title>Prem Sagar</title>
 </head>
 <body class="bg-[#070930] overflow-x-hidden">
-    <div class="text-white">
+    <div class="text-white" id="wrapper">
         <!--  =========== navigation bar ============= -->
         <header class="bg-gradient-to-t to-black from-[#070930]">
             <nav>
-                <ul class="flex justify-evenly p-5 font-semibold">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">My Skills</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact me</a></li>
+                <ul class="flex justify-evenly p-5 font-semibold navigation">
+                    <li><a data-scroll href="#wrapper">Home</a></li>
+                    <li><a data-scroll href="#skills">My Skills</a></li>
+                    <li><a data-scroll href="#services">Services</a></li>
+                    <li><a data-scroll href="#projects">Projects</a></li>
+                    <li><a data-scroll href="#contact">Contact me</a></li>
                 </ul>
             </nav>
             <section class="hero h-screen relative">
-                <div class="w-full h-full bg-[url('image/me6.jpg')] lg:bg-contain bg-no-repeat bg-cover bg-center bg-fixed" data-aos="fade-down-right" data-aos-duration="2000"></div>
+                <div class="w-full h-full bg-[url('image/me6-min.jpg')] lg:bg-contain bg-no-repeat bg-cover bg-center bg-fixed" data-aos="fade-down-right" data-aos-duration="2000"></div>
                 <div class="text-center p-5 md:p-10 lg:p-20 mb-40 md:mb-28 lg:mb-32 bg-[rgba(0,0,0,0.5)] absolute bottom-0 left-0"  data-aos="fade-down-left" data-aos-duration="3000">
                     <h1 class="mb-5 font-bold lg:text-6xl md:text-xl text-base">Hi, I'm Prem Sagar.</h1>
                     <p class="text-xs md:text-sm lg:text-lg">I'm a full-stack developer, a YouTuber and a teacher and a loving father of my daughter. I like to work as freelancer. Technologies that i use when I create website are React, Node.js, MongoDB, HTML, JavaScript and more.</p>
@@ -108,40 +108,40 @@
                 <h2 class="section-heading">Fun fact! I'm also a YouTuber.</h2>
                 <div class="grid md:grid-cols-3 gap-10">
                     <div  data-aos="fade-down" data-aos-duration="1000">
-                        <a href="">
-                            <img src="image/youTube-thumbnails/1 (1).png" alt="">
+                        <a href="https://youtu.be/EFa-RQa8_yM">
+                            <img src="image/youTube-thumbnails/1 (1)-min.png" alt="">
                         </a>
                     </div>
                     <div  data-aos="fade-down" data-aos-duration="1500">
-                        <a href="">
-                            <img src="image/youTube-thumbnails/1 (2).png" alt="">
+                        <a href="https://youtu.be/4H8fjdR894M">
+                            <img src="image/youTube-thumbnails/1 (2)-min.png" alt="">
                         </a>
                     </div>
                     <div  data-aos="fade-down" data-aos-duration="2000">
-                        <a href="">
-                            <img src="image/youTube-thumbnails/1 (3).png" alt="">
+                        <a href="https://youtu.be/4uN5AV8kdNs">
+                            <img src="image/youTube-thumbnails/1 (3)-min.png" alt="">
                         </a>
                     </div>
                 </div>
             </section>
 
             <!--  =========== services section ============= -->
-            <section id="services" class="relative md:p-48 md:pt-20 lg:p-20 p-10 bg-[url('image/background/bg-computer.jpg')] bg-cover bg-no-repeat bg-fixed z-10">
+            <section id="services" class="relative md:p-48 md:pt-20 lg:p-20 p-10 bg-[url('image/background/bg-computer-min.jpg')] bg-cover bg-no-repeat bg-fixed z-10">
                 <div class="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.47)] -z-10"></div>
                 <h2 class="section-heading">Services</h2>
                 <div class="grid lg:grid-cols-3 gap-10">
                     <div class="service-card bg-green-400" data-aos="zoom-in" data-aos-duration="1000">
-                        <i class="fas md:fa-3x fa-2x fa-laptop-code"></i><span class="md:text-6xl text-4xl">+</span><i class="fas md:fa-3x fa-2x fa-server"></i>
+                        <i class="md:text-6xl text-4xl fas fa-laptop-code"></i><span class="md:text-6xl text-4xl">+</span><i class="fas md:text-6xl text-4xl fa-server"></i>
                         <h5>Full-Stack Development</h5>
                         <p>I will build and deploy your website and get it up and running.</p>
                     </div>
                     <div  class="service-card bg-violet-500" data-aos="zoom-in" data-aos-duration="1500">
-                        <i class="fas fa-3x fa-laptop-code"></i>
+                        <i class="fas md:text-6xl text-4xl fa-laptop-code"></i>
                         <h5>Frontend Development</h5>
                         <p>I will create frontend part for your website with react or static HTML pages.</p>
                     </div>
                     <div  class="service-card bg-pink-500" data-aos="zoom-in" data-aos-duration="2500">
-                        <i class="fas fa-3x fa-server"></i>
+                        <i class="fas md:text-6xl text-4xl fa-server"></i>
                         <h5>Backend Development</h5>
                         <p>I will build backend server with database for your website.</p>
                     </div>
@@ -153,34 +153,34 @@
                 <h2 class="section-heading">Projects</h2>
                 <div class="grid lg:grid-cols-3 gap-10">
                     <div data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="bg-[url('image/project/pexels-prateek-katyal-2694434.jpg')] bg-cover bg-center h-80 w-full"></div>
+                        <div class="bg-[url('image/project/pexels-prateek-katyal-2694434-min.jpg')] bg-cover bg-center h-80 w-full"></div>
                         <div class="bg-white p-5 text-gray-900">
                             <h5 class="font-bold">Social Media App</h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis explicabo unde, tempora aliquid ipsam voluptatum! Est sequi necessitatibus blanditiis nisi!</p>
                             <div class="text-blue-500 border-t-2 pt-2 mt-2">
-                                <i class="fab fa-github"></i> <a href="">Source code</a>
+                                <i class="fab fa-github"></i> <a href="https://github.com/gitpremsagar">Source code</a>
                             </div>
                         </div>
                     </div>
 
                     <div data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="bg-[url('image/project/pexels-ivan-samkov-7621352.jpg')] bg-cover bg-center h-80 w-full"></div>
+                        <div class="bg-[url('image/project/pexels-ivan-samkov-7621352-min.jpg')] bg-cover bg-center h-80 w-full"></div>
                         <div class="bg-white p-5 text-gray-900">
                             <h5 class="font-bold">Social Media App</h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis explicabo unde, tempora aliquid ipsam voluptatum! Est sequi necessitatibus blanditiis nisi!</p>
                             <div class="text-blue-500 border-t-2 pt-2 mt-2">
-                                <i class="fab fa-github"></i> <a href="">Source code</a>
+                                <i class="fab fa-github"></i> <a href="https://github.com/gitpremsagar">Source code</a>
                             </div>
                         </div>
                     </div>
 
                     <div data-aos="zoom-in" data-aos-duration="2000">
-                        <div class="bg-[url('image/project/pexels-andrea-piacquadio-3761513.jpg')] bg-cover bg-center h-80 w-full"></div>
+                        <div class="bg-[url('image/project/pexels-andrea-piacquadio-3761513-min.jpg')] bg-cover bg-center h-80 w-full"></div>
                         <div class="bg-white p-5 text-gray-900">
                             <h5 class="font-bold">Social Media App</h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis explicabo unde, tempora aliquid ipsam voluptatum! Est sequi necessitatibus blanditiis nisi!</p>
                             <div class="text-blue-500 border-t-2 pt-2 mt-2">
-                                <i class="fab fa-github"></i> <a href="">Source code</a>
+                                <i class="fab fa-github"></i> <a href="https://github.com/gitpremsagar">Source code</a>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
             </section>
 
             <!--  =========== contact section ============= -->
-            <section id="contact" class="p-5 md:p-20 bg-[url('image/background/bg6.jpg')]  bg-cover bg-fixed bg-no-repeat relative z-10">
+            <section id="contact" class="p-5 md:p-20 bg-[url('image/background/bg6-min.jpg')]  bg-cover bg-fixed bg-no-repeat relative z-10">
                 <div class="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.68)] -z-10"></div>
                 <h2 class="section-heading">Contact me</h2>
                 <div class="grid md:grid-cols-2 gap-10">
@@ -215,7 +215,7 @@
                     </div>
                     <div class="border-2 p-10 rounded-xl"  data-aos="fade-down-left" data-aos-duration="1500">
                         <h6 class="text-center mb-10">Send Message</h6>
-                        <form action="">
+                        <form action="mailto:premsagar9113@gmail.com" method="post" enctype="text/plain">
                             <fieldset>
                                 <input placeholder="Your name ..." type="text" tabindex="1" required class="">
                             </fieldset>
@@ -233,11 +233,12 @@
                 </div>
             </section>
         </main>
+
         <footer class="h-80 text-center flex items-center justify-center p-10">
             <div>
-                <h5>Prem Sagar</h5>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae exercitationem autem commodi praesentium vero vitae ipsam nesciunt mollitia at iusto?</p>
-                <div>
+                <h5 class="font-bold text-xl">Prem Sagar</h5>
+                <p class="p-5">If I can be of assistance, please do not hesitate to contact me.</p>
+                <div class="text-2xl">
                     <a href="https://www.linkedin.com/in/prem-sagar-b45a4580/"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/gitpremsagar"><i class="fab fa-github"></i></a>
                     <a href="https://www.youtube.com/channel/UCcAOvS5KtA6CC9DPhQCwZ4A"><i class="fab fa-youtube"></i></a>
@@ -247,6 +248,12 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800
+        });
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

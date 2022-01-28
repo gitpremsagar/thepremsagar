@@ -35,3 +35,7 @@
 #contact form textarea {
   @apply h-[250px];
 }
+
+.navigation a:hover {
+  @apply text-blue-400;
+}
